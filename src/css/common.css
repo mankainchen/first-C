@@ -13,10 +13,14 @@ html{
 }
 body{
 	font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+    color:#666;
 }
 a{
 	text-decoration: none;
+}
+ul li{
+	list-style: none;
 }
 img,input,button{
 	border:none;
@@ -156,4 +160,108 @@ img,input,button{
 .nav p a{
 	margin-right: 37px;
 	padding: 0 10px;
+}
+.footer{
+	width:1423px;
+	height:391px;
+	margin:0 auto;
+}
+.ul-p{
+	width:1423px;
+	height:79px;
+	line-height:79px;
+	border-top:1px solid #d8d8d8;
+	border-bottom:1px solid #e0e0e0;
+	box-shadow: 0 2px 2px #e0e0e0; 
+
+}
+.ul-p li{
+	float:left;
+	height:79px;
+	line-height: 79px;
+	margin-left: 129px; 
+}
+.li-fir{
+	width:170px;
+	background: url("img/footer1.png") no-repeat center right;
+	padding-right:72px;
+}
+.li-sec{
+	width:145px;
+	background: url("img/footer2.png") no-repeat center left;
+	padding-left: 40px;
+}
+.li-thir{
+	width:126px;
+	background: url("img/footer3.png") no-repeat center left;
+	padding-left: 40px;
+}
+.li-four{
+	width:110px;
+	height:79px;
+	background: url("img/footer4.png") no-repeat center left;
+	padding-left: 40px;
+}
+.compa{
+	width:1052px;
+	height:115px;
+	margin:0 auto;
+	border-bottom:1px solid #d8d8d8;
+	padding: 30px 50px 0;
+}
+.compa p span{
+	font-size: 14px;
+	line-height:21px;
+}
+.compa p{
+	display: inline-block;
+	font-size: 18px;
+}
+.compa1{
+	width:660px;
+	height:60px;
+}
+.compa2{
+	width:327px;
+	height:79px;
+}
+.footer-p1{
+	margin-top: 20px;
+	text-align: center;
+}
+.footer a{
+	margin: 0 8px;
+	color:#666;
+}
+.footer a:hover{
+	text-decoration:underline; 
+}
+.footer-p2{
+	display:block;
+	width: 545px;
+	height:41px;
+	text-align: center;
+	margin:20px auto;
+	line-height: 41px;
+}
+.footer-p2 a{
+	display: block;
+	width:114px;
+	height:41px;
+}
+.img-a1{
+	background: url("img/honest1.png");
+}
+.img-a2{
+	background: url("img/honest2.png");
+}
+.footer-p2 span{
+	display: block;
+	width:114px;
+	height:41px;
+	background: url("img/honest3.png");
+}
+.footer-p3{
+	text-align: center;
+	color:#666;
 }

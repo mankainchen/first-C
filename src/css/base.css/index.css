@@ -1,0 +1,88 @@
+.daling-main{
+	width:1200px;
+	height:5306px;
+	margin:90px auto 50px;
+}
+.title{
+	display: block;
+	width:433px;
+	height:1px;
+	border-top: 1px solid #666;
+	margin: 0 auto;
+	position:relative;
+}
+.title span{
+	position: absolute;
+	top:-20px;
+	left:143px;
+	display: block;
+	width:147px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 30px;
+	background:#fff;
+}
+.daling-new{
+	width: 1200px;
+	height:734px;
+	margin:0 auto;
+}
+.title-p{
+	display: block;
+	width:1137px;
+	height:74px;
+	padding:22px 0 14px 52px;
+	margin-left:11px;
+	background: url("../img/sun.png") no-repeat left center; 
+}
+.title span{
+	line-height: 64px;
+}
+.new-span1{
+	font-size: 16px;
+	margin-right:28px;
+}
+.huan{
+	display:block;
+	width:90px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	background: #e14958;
+	color:#fff; 
+}
+}
+.huan:hover{
+	text-decoration:underline;
+}
+.daling-new-ul{
+	width:1200px;
+	height:660px;
+	margin: 0 auto;
+}
+.ul-1{
+	width:1200px;
+	height:380px;
+}
+.ul-1 li{
+	display: inline-block;
+	width:283px;
+	height:380px;
+	float:left;
+	border:1px solid #e5e5e5;
+	margin-left:20px;
+	background: url("../img/new1.png") no-repeat top left;
+	position: relative;
+}
+.ul-1 .li-first{
+	margin-left: 0;
+}
+.li-mag{
+	width:233px;
+	height:82px;
+	padding:0 25px;
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+}
