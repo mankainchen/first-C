@@ -2,6 +2,7 @@
 	width:1200px;
 	height:5306px;
 	margin:90px auto 50px;
+	background-color: #f9f9f9;
 }
 .title{
 	display: block;
@@ -21,7 +22,7 @@
 	line-height: 30px;
 	text-align: center;
 	font-size: 30px;
-	background:#fff;
+	background:#f9f9f9;
 }
 .daling-new{
 	width: 1200px;
@@ -36,7 +37,7 @@
 	margin-left:11px;
 	background: url("../img/sun.png") no-repeat left center; 
 }
-.title span{
+.title-p span{
 	line-height: 64px;
 }
 .new-span1{
@@ -51,6 +52,7 @@
 	line-height: 30px;
 	background: #e14958;
 	color:#fff; 
+	margin:19px 40px 0 0; 
 }
 }
 .huan:hover{
@@ -85,4 +87,172 @@
 	position: absolute;
 	bottom: 30px;
 	left: 0;
+}
+.new-p1{
+	line-height: 45px;
+	font-size: 16px;
+	color:#ed4958;
+}
+.new-p1 span{
+	font-size: 10px;
+	color:#666;
+}
+.new-li-span1{
+	text-decoration:line-through;
+	margin-left: 10px;
+}
+.new-p2{
+	font-size: 10px;
+}
+.new-span3{
+	color: color:#ed4958;
+}
+.new-p2 a{
+	color: #666;
+}
+.new-p2 a:hover{
+	text-decoration:underline;
+}
+.ul-2{
+	width:1200px;
+	height:238px;
+	margin-top: 23px;
+}
+.ul-2 li{
+	width:589px;
+	height:238px;
+	border:1px solid #e5e5e5;
+}
+.ul-mag{
+	width:225px;height:170px;
+	padding:70px 25px 0 50px;
+}
+.worth-p{
+	background: url("../img/true.png") no-repeat left center; 
+	font-size: 16px;
+	margin-top: 25px;
+}
+.worth-span{
+	font-size: 10px;
+	margin-left: 25px;
+}
+.all{
+	display: block;
+	width:1200px;
+	height:36px;
+	margin: 0 auto;
+	margin-left: 37px;
+	padding-left:22px; 
+	line-height: 36px;
+	background: url("../img/sifang.png") no-repeat left center;
+}
+.good{
+	width:1200px;
+	height: 234px;
+	margin: 0 auto 45px;
+	background-color: #fff;
+}
+.good ul li{
+	width:208px;
+	height:140px;
+	margin: 45px 10px;
+	float: left;
+}
+.say-good{
+	width:1200px;
+	height:1001px;
+	background-color: #fff;
+	padding-top:42px; 
+	margin: 0 auto 45px;
+}
+.tap{
+	display: block;
+	width: 1163px;
+	height:30px;
+	line-height: 30px;
+	border-bottom:1px solid #e14958;
+	padding-left: 37px;
+}
+.tap a{
+	display: block;
+	width:90px;
+	height:30px;
+	border:1px solid #e14958;
+	border-bottom: none;
+	margin-right: 10px;
+	float: left;
+	text-align: center;
+	color: #666;
+}
+.say-good ul li{
+	width:282px;
+	height:444px;
+	margin:40px 0 10px 100px;
+	float: left;
+	position: relative;
+}
+.pic-a{
+	display: block;
+	width:280px;
+	height:280px;
+}
+.li-div{
+	width:280px;
+	height:142px;
+	position: absolute;
+	bottom: 0px;padding-left:2px;
+}
+.again{
+	width:1200px;
+	height:470px;
+	margin:0 auto 45px;
+	background-color: #fff;
+}
+.heima{
+	width:1200px;
+	height:972px;
+	margin: 0 auto 50px;
+	background-color: #fff;
+}
+.heima ul li{
+	width:282px;
+	height:444px;
+	margin:40px 0 10px 100px;
+	float: left;
+	position: relative;
+}
+.heima-title span{
+	width:207px;
+	left:114px;
+}
+.title-p3{
+	display: block;
+	width:1137px;
+	height:74px;
+	padding:22px 0 14px 52px;
+	margin:20px 0 0 11px;
+	background: url("../img/times.png") no-repeat left center; 
+}
+.title-p3 span{
+	line-height: 64px;
+}
+.temai{
+	width:1200px;
+	height:1232px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.temai ul li{
+	width:786px;
+	height:282px;
+}
+.temai a{
+	display: block;
+	width:382px;
+	height:280px;
+	padding-left: 106px;
+}
+.temai-li-div{
+	width:292px;
+	height:269px;
 }
