@@ -1,6 +1,7 @@
 .daling-main{
 	width:1200px;
-	height:5306px;
+	height:auto;
+	min-height:5306px;
 	margin:90px auto 50px;
 	background-color: #f9f9f9;
 }
@@ -238,15 +239,22 @@
 }
 .temai{
 	width:1200px;
-	height:1232px;
+	height: auto;
+	min-height: 1232px;
 	margin: 0 auto;
-	background-color: #fff;
 }
-.temai ul li{
+.zaishou{
+	width:786px;
+	height:auto;
+	min-height: 1232px;
+}
+.zaishou li{
 	width:786px;
 	height:282px;
+	margin-bottom: 17px;
+	background-color: #fff;
 }
-.temai a{
+.zaishou li a{
 	display: block;
 	width:382px;
 	height:280px;
@@ -255,4 +263,91 @@
 .temai-li-div{
 	width:292px;
 	height:269px;
+}
+#nowbuy{
+	background-color: #e14958;
+	display: block;
+	width:140px;
+	height:38px;
+	line-height: 38px;
+	text-align: center;
+	padding-left: 0;
+	color: #fff;
+	font-size: 16px;
+}
+#nowbuy:hover{
+	text-decoration: underline;
+}
+.buy-span{
+	line-height: 38px;
+	margin-right: 52px;
+}
+.more{
+	text-align: center;
+	border:1px solid #e0e0e0;
+	background-color: #f3f3f3;
+	display: block;
+	height:27px;
+	line-height: 27px;
+	color: #666;
+}
+.yushou{
+	width:386px;
+	height:1051px;
+}
+.yushou li{
+	width:386px;
+	height:195px;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.yushou-tit{
+	text-align: center;
+	display: block;
+	width:386px;
+	height:58px;
+	font-size: 20px;
+	line-height: 24px;
+}
+.yushou-tit span{
+	font-size: 14px;
+}
+.yushou-img{
+	display: block;
+	width:236px;
+	height:193px;
+}
+.yushou-mag{
+	width:124px;
+	height: 188px;
+	padding: 0 12px;
+}
+.yushou p{
+	margin-top: 15px;
+	font-size: 12px;
+}
+.yushou-mag p a{
+	color: #666;
+}
+.yushou-mag p a:hover{
+	text-decoration: underline;
+}
+.yushou-p3{
+	display: block;
+	width: 124px;
+	height: 20px;
+}
+.yushou-a1{
+	display: block;
+	width:27px;
+	height: 20px;
+	padding-left: 18px;
+	line-height: 20px;
+	background:url("../img/yushou-a1.png") no-repeat left center;
+}
+.yushou-a2{
+	display: block;
+	width:75px;
+	height: 20px;
+	background: url("../img/yushou-a2.png") no-repeat;
 }

@@ -1,0 +1,78 @@
+.goods-list-main{
+	width:1200px;
+	height: auto;	
+	min-height:4243px;
+	margin: 0 auto;
+}
+.goods-list-link{
+	width：1200px;
+	height: 40px;
+	margin:10px 0;
+}
+.goods-list-condition{
+	wdith:1160px;
+	height: auto;
+	min-height:177px;
+	padding:18px 20px 20px;
+	border:1px solid #ccc;
+}
+.goods-list-condition a{
+	color: #666;
+}
+.goods-list-condition a:hover{
+	text-decoration: underline;
+}
+.goods-list-condition ul{
+	width:1158px;
+	height: auto;
+	min-height: 177px;
+}
+.goods-list-condition li{
+	width:1158px;
+	height: auto;
+	min-height: 35px;
+}
+.condition-dl{
+	width:910px;
+	height: auto;
+	min-height:35px;
+	float: left;
+}
+.condition-dl dt{
+	width:70px;
+	height:35px;
+	float: left;
+	color: #000;
+}
+.condition-dl dd{
+	width:840px;
+	height:35px;
+	float: left;
+}
+.condition-dl dd a{
+	display: block;
+	width:100px;
+	height:14px;
+	margin:0 20px 0 0;
+	float: left;
+	font-size: 12px;
+}
+.condition-div{
+	float: right;
+	width:124px;
+	height:26px;
+}
+.condition-div a{
+	display: block;
+	width: 51px;
+	height: 26px;
+	border:1px solid #ccc;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+	margin-right: 3px;
+	line-height: 26px;
+}
+.condition-div a span{
+	margin-right: 5px;
+}
