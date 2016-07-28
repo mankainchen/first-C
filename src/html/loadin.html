@@ -13,23 +13,41 @@
 	<div class="login-main">
 		<div class="form-box">
 			<p class="login-tit-p1">达令会员</p>
-			<p class="login-tit-p2"><a href="">登录</a><a href="">注册</a></p>
+			<p class="login-tit-p2"><a class="login-tit-btn1" href="">登录</a><a class="login-tit-btn2" href="">注册</a></p>
 			<div class="login-box">
 				<form class="form-list">
-					<p><input class="form-child username" type="text" name="" placeholder="请输入您的手机号码"></p>
-					<p><input class="form-child1 check-code" type="text" name="" placeholder="请输入验证码"><span class="form-span right"></span></p>
-					<p><input class="form-child1 check-phone" type="text" name="" placeholder="请输入短信验证码"><button class="form-btn1">获取验证码</button></p>
-					<p><input class="form-child usermima" type="password" name="" placeholder="请输入密码"></p>
-					<p><input id="checkbox" type="checkbox" name="">我已阅读并同意<a href="">《达令用户注册协议》</a></p>
-					<p><button class="login-btn">登录</button></p>
+					<p>
+						<input id="reuse" class="form-child username" type="text" name="" placeholder="请输入您的手机号码">
+						<span class="tip tip1"></span>
+					</p>
+					<p>
+						<input class="form-child1 check-code" type="text" name="" placeholder="请输入验证码"><span class="form-span right"></span>
+						<span class="tip tip2"></span>
+					</p>
+					<p>
+						<input class="form-child1 check-phone" type="text" name="" placeholder="请输入短信验证码"><button class="form-btn1">获取验证码</button>
+					</p>
+					<p>
+						<input class="form-child usermima" type="password" name="" placeholder="请输入密码">
+					</p>
+					<p>
+						<input id="checkbox" type="checkbox" name="">我已阅读并同意<a href="">《达令用户注册协议》</a>
+					</p>
+					<p><button class="login-btn">注册</button></p>
 				</form>
 				
 			</div>
 			<div class="resign-box form-list">
 				<form class="form-list">
-					<p><input class="form-child username" type="text" name="" placeholder="请输入您的手机号码"></p>
-					<p><input  class="form-child usermima" type="password" name="" placeholder="请输入密码"></p>
-					<p><button class="resign-btn">注册</button></p>
+					<p>
+						<input id="loguse" class="form-child username" type="text" name="" placeholder="请输入您的手机号码">
+						<span class="tip tip1"></span>
+					</p>
+					<p>
+						<input id="logmima" class="form-child usermima" type="password" name="" placeholder="请输入密码">
+						<span class="tip tip3"></span>
+					</p>
+					<p><button class="resign-btn">登录</button></p>
 				</form>
 			</div>
 		</div>
@@ -61,5 +79,8 @@
 			<p class="footer-p3">Copyright&copy2016达令，All Right | 京ICP备140049583号-1 | 京公网安备112456723456|食品流通许可证编号：56754262666</p>
 		</div>
 	</div>
+	<script src="../js/common.js/jquery-1.12.0.js"></script>
+	<script type="text/javascript" src="../js/model.js/loadin.js"></script>
+	<script type="text/javascript" src="../js/model.js/resign.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 .goods-list-main{
 	width:1200px;
 	height: auto;	
-	min-height:4243px;
+	min-height:280px;
 	margin: 0 auto;
 }
 .goods-list-link{
@@ -12,7 +12,7 @@
 .goods-list-condition{
 	wdith:1160px;
 	height: auto;
-	min-height:177px;
+	min-height:230px;
 	padding:18px 20px 20px;
 	border:1px solid #ccc;
 }
@@ -46,8 +46,13 @@
 }
 .condition-dl dd{
 	width:840px;
-	height:35px;
+	height: auto;
+	min-height:35px;
 	float: left;
+}
+.dd-div{
+	height: auto;
+	min-height:35px;
 }
 .condition-dl dd a{
 	display: block;
@@ -75,4 +80,102 @@
 }
 .condition-div a span{
 	margin-right: 5px;
+}
+.liebiao{
+	width: 1200px;
+	height: auto;
+	min-height:400px;
+	margin: 0 auto;
+}
+.ul-1{
+	width:1200px;
+	height:380px;
+}
+.ul-1 li{
+	display: inline-block;
+	width:283px;
+	height:380px;
+	float:left;
+	border:1px solid #e5e5e5;
+	margin-left:20px;
+	background: url("../img/list.png") no-repeat top left;
+	position: relative;
+}
+.ul-1 .li-first{
+	margin-left: 0;
+}
+.li-mag{
+	width:233px;
+	height:82px;
+	padding:0 25px;
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+}
+.new-p1{
+	line-height: 45px;
+	font-size: 16px;
+	color:#ed4958;
+}
+.new-p1 span{
+	font-size: 10px;
+	color:#666;
+}
+.new-li-span1{
+	text-decoration:line-through;
+	margin-left: 10px;
+}
+.new-p2{
+	font-size: 10px;
+}
+.new-span3{
+	color: color:#ed4958;
+}
+.new-p2 a{
+	color: #666;
+}
+.new-p2 a:hover{
+	text-decoration:underline;
+}
+.beside{
+	position:fixed;
+	top:0;
+	right:0;
+	background:#333;
+	min-width:40px;
+	width:auto;
+	height:100%;
+}
+.car1{
+	margin-top: 110px;
+	color:#fff;
+	position: relative;
+}
+.oncar{
+position: absolute;
+top:1px;
+left:0px;
+}
+.car1 a{
+	display:block;
+	width:14px;
+	height:42px;
+	color:#fff;
+	margin-left:12px;
+}
+.goods-cont{
+	margin-left: 15px;
+}
+.side-goods{
+	margin-left:15px;
+	width:280px;
+	height:100%;
+	display: none;
+	background-color: #fff;
+}
+.check-more{
+	width:882px;
+	height:92px;
+	padding:10px;
+	display: none;
 }
