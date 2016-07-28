@@ -61,6 +61,7 @@
     });
     //------------------------加入购物车------------------------------
 	var $li=$(".ul-1,.ul-2,.good,.say-good,.again,.heima").find("li");
+	var $goodsCont=$(".goods-cont").val();
 	$li.on("mouseenter",function(){
 		$(this).css("box-shadow"," 0px 0px 20px pink");
 		$("<div/>").addClass("borncar").appendTo($(this));
@@ -82,23 +83,27 @@
 			color:"#fff",
 		})
 		$(".enjon").on("click",function(e){
-			var $onCar=$(".oncar");
-			var $goodsCont=$(".goods-cont").val();
+			var $fly=$(".oncar");
+			console.log($fly);
+			//var $goodsCont=$(".goods-cont").val();
 			$("<div/>").addClass("run").appendTo($(this));
 			//console.log(e.clientX);
 			$(".run").css({
 				width:"60px",
 				height:"60px",
-				position:"absolute",
-				top:"0px",
-				left:"0px",
+				position:"fixed",
+				top:e.clientY,
+				left:e.clientX,
 				background:"#0f0",
 				borderRadius:"30px",
-			})
+			});
 			//console.log($onCar.offset().top);
+			console.log($fly.css("top"));
 			$(".run").animate({
-				left:$onCar.offset().left,
-				top:-$onCar.offset().top/2
+				left:$fly.offset().left,
+				top:$fly.css("top")
+				//top:"880px"
+
 			},function(){
 				$goodsCont++
 				$(".goods-cont").html($goodsCont);
