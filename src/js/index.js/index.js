@@ -60,7 +60,7 @@
         timer = setInterval(animation,2000);
     });
     //------------------------加入购物车------------------------------
-	var $li=$(".ul-1,.ul-2,.good,.say-good,.again,.heima").find("li");
+	var $li=$(".ul-1,.ul-2,.good,.say-good,.heima").find("li");
 	var $goodsCont=$(".goods-cont").val();
 	$li.on("mouseenter",function(){
 		$(this).css("box-shadow"," 0px 0px 20px pink");
@@ -127,6 +127,7 @@
 	$(".again-ul").on("mouseleave",function(){
 		$(".again1").addClass("againFir");
 		$(".again1").siblings().removeClass("againFir");
+		//$(".again-li").find("img").css("height","25px")
 	})
 	//-----------------购物车展开---------------------
 	$(".car-a").on("click",function(){
